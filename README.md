@@ -29,16 +29,9 @@ yarn
     - Vite: usa `VITE_...`
 - Archivo ejemplo `.env.example` (ajusta según tu proyecto):
 ```env
-# Ejemplo para create-react-app
-REACT_APP_API_URL=https://api.example.com
-REACT_APP_AUTH_TOKEN=replace_with_token
-REACT_APP_NODE_ENV=development
-REACT_APP_PUBLIC_URL=/
 
-# Ejemplo para Vite (si aplica)
-VITE_API_URL=https://api.example.com
-VITE_AUTH_TOKEN=replace_with_token
-VITE_NODE_ENV=development
+# Ejemplo para Vite
+VITE_API_URL=http://localhost:5127
 ```
 
 4. Ejecutar en modo development
